@@ -1,0 +1,110 @@
+.main {
+  width: 900px;
+  border: 1px solid rgb(195, 191, 191);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(241, 239, 239);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Task {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.Task::placeholder{
+  text-align: center;
+}
+
+.addButton{
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform,opacity;
+  appearance: none;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  background-color: #fff;
+  border-radius: 10px;
+  border-style: none;
+  
+}
+
+.addButton:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+.addButton:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.addButton:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
+.all{
+  width: 300px;
+  margin-top: 80px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  border-color:rgb(152, 152, 152) ;
+  box-shadow: rgba(0, 0, 0, .2) 0 0px 0px 0px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 0px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  background-color: #fff;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.all:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+.all:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.all:focus {
+  outline: none;
+  border: 2px solid #4285f4;
+}
+
